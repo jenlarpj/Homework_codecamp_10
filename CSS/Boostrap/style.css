@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-style{
+    background-image: url("https://mhkzolution.com/wp-content/uploads/2016/11/bg-02.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.header-pimclick{
+    text-align: center;
+}
+.pimclick{
+    font-size: 70px;
+    color: white;
+    
+}
+.creative-digital-agency{
+    font-size: 65px;
+    color: white;
+    
+}
+
+
+.head-contact{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0px;
+    
+}
+.contact-us{
+    color:black;
+}
+.contact-form{
+    background-color: white;
+    margin: 10px 80px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 10px 2px rgb(190, 189, 189);
+}
+form{
+    margin: 50px;
+    /* padding-bottom: 100px; */
+}
+.head-contact > *{
+    display: inline-block;
+}
+.head-contact > .today{
+    color: red;
+}
+.mb-3-yours{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.mb-3-yours > *{
+    flex-basis: 500px;
+}
+.mb-3-name{
+    margin-right: 15px;
+}
+.mb-3-email{
+    
+}
+input[type=name]{
+    width: 100%;
+}
+input[type=email]{
+    width: 100%;
+}
+#exampleInputYourMessage{
+    resize: none;
+}
+.button-send{
+    text-align: center;
+    padding: 50px 0;
+}
+button[type=button]{
+    width: 170px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.ads-pimclick{
+    letter-spacing: 1px;
+    margin: 0 80px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.video-pimclick{
+    text-align: center;
+    margin: 80px;
+}
+.ads-digital{
+    
+}
+.row{
+    justify-content: space-between;
+
+}
+.row > .col-10, .col-sm-6,.col-lg-6{
+    padding-left: 90px;
+}
+#digital-strategy > h1{
+    font-size: 50px;
+    color: rgb(219, 67, 67);
+}
+#digital-production > h1{
+    padding: 0;
+    font-size: 50px;
+    color: rgb(219, 67, 67);
+}
+#graphic-design > h1{
+    padding: 0;
+    font-size: 50px;
+    color: rgb(219, 67, 67);
+}
+#e-marketing > h1{
+    font-size: 50px;
+    color: rgb(219, 67, 67);
+}
+#video-production > h1{
+    font-size: 50px;
+    color: rgb(219, 67, 67);
+}
+
+.col-10{
+    flex-wrap: nowrap;
+}
+.col-sm-4{
+    flex-wrap: nowrap;
+}
+.col-lg-3{
+    flex-wrap: nowrap;
+}
+.our-clients{
+    text-align: center;
+
+}
+.sub-our-clients{
+    width: auto;
+}
+.sub-our-clients > h6{
+    color: red;
+    font-style: italic;
+}
+.sideall{
+    display: flex;
+    transform: translateY(-50%);
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    align-items: center;
+    
+}
+.sidebar{
+    flex-basis: 8%;
+}
+.sidebar-pimclick{
+    background: url(https://www.pimclick.com/assets/pimclick-logotype.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 168px;
+    margin: 0 auto 20px;
+    position: relative;
+    width: 45px;
+}
+@media (max-width: 1000px){
+    #digital-strategy > h1{
+        font-size: 45px;
+    }
+    #digital-production > h1{
+        padding: 0;
+        font-size: 45px
+    }
+    #graphic-design > h1{
+        padding: 0;
+        font-size: 45px;
+    }
+    #e-marketing > h1{
+        font-size: 45px;
+    }
+    #video-production > h1{
+        font-size: 45px;
+    }
+}
+@media (max-width: 767px){
+    #digital-strategy > h1{
+        font-size: 70px;
+    }
+    #digital-production > h1{
+        padding: 0;
+        font-size: 70px
+    }
+    #graphic-design > h1{
+        padding: 0;
+        font-size: 70px;
+    }
+    #e-marketing > h1{
+        font-size: 70px;
+    }
+    #video-production > h1{
+        font-size: 70px;
+    }
+}
+@media(max-width: 620px){
+    .head-contact > *{
+        font-size: 45px;
+    }
+
+}
+@media(max-width: 600px){
+    .mb-3-yours{
+        display: block;
+    }
+    .mb-3-name{
+        margin: 0;
+    }
+
+}
+
